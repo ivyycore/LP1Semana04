@@ -28,6 +28,8 @@ namespace BetterDecorador
              {
                  realsymbol += symbol;
              }
+            ///Prints the input phrase and symbol given and prints it the 
+            // inputed number of times
              return $"{realsymbol} {phrase} {realsymbol}";
          }
      }
