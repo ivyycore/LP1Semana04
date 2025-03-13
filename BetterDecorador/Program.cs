@@ -23,14 +23,14 @@ namespace BetterDecorador
         /// <returns>Prints at the end </returns>
          private static string Decor (string phrase, char symbol, int numbers)
          {
-             string realsymbol = " ";
-             for (int i = 0; i < numbers; i++)
-             {
-                 realsymbol += symbol;
-             }
+            string realsymbol = " ";
+            for (int i = 0; i < numbers; i++)
+            {
+                realsymbol += symbol;
+            }
             ///Prints the input phrase and symbol given and prints it the 
             // inputed number of times
-             return $"{realsymbol} {phrase} {realsymbol}";
+            return $"{realsymbol} {phrase} {realsymbol}";
          }
      }
  }
