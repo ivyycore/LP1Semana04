@@ -11,6 +11,11 @@ namespace BetterDecorador
         /// <param name="args">The args on the method Decor()</param>
         private static void Main(string[] args)
         {
+            if (args.Length != 3) //if the length of args is not 3, gives this message
+            {
+                Console.WriteLine(Decor("User did not specify args !", '=', 3));
+                return;
+            }
             Console.WriteLine(Decor(args[0], char.Parse(args[1]), int.Parse(args[2])));
         }
         /// <summary>
